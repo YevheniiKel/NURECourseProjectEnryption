@@ -112,8 +112,6 @@ public:
 
 
 int main() {
-    double cpu_time_usedVIG, cpu_time_usedRSA, cpu_time_usedHILL;
-    time_t startVIG, endVIG, startRSA, endRSA, startHill, endHill;
     string orig;
     cout << "Enter a message for encryption:\n";
     cin >> orig;
